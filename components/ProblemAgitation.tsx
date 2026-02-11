@@ -20,19 +20,19 @@ const ProblemAgitation: React.FC<ProblemAgitationProps> = ({ onCtaClick }) => {
         
         <div className="space-y-6 text-lg text-gray-700 leading-relaxed mb-10">
           <p>
-          Képzeld el: valaki rákattint a hirdetésedre. Érdeklődik, kíváncsi, majdnem vásárol… aztán bezárja az oldalt. Nem azért, mert rossz az ajánlatod. Hanem mert az oldalad nem győzte meg <span className="text-brand-accent">5 másodperc</span> alatt.
+          Képzeld el: valaki rákattint a hirdetésedre. Érdeklődik, kíváncsi, majdnem vásárol… aztán bezárja az oldalt. Nem azért, mert rossz az ajánlatod. Hanem mert az oldalad nem győzte meg <span className="text-brand-accent font-bold">5 másodperc</span> alatt.
           </p>
           <p><strong className="font-bold">Ezt látjuk újra és újra 500+ landing oldal elemzése után:</strong></p>
 
           <ul className="list-none space-y-2 text-left mx-auto max-w-md">
             <li className="flex items-start">
-              <span className="text-red-600 mr-2">❌</span> Az üzenet nem elég világos – a látogató nem érti, miért pont te vagy a legjobb választás
+              <span className="text-red-600 mr-2">❌</span> <span className="text-brand-accent underline">Az üzenet nem elég világos – a látogató nem érti, miért pont te vagy a legjobb választás</span>
             </li>
             <li className="flex items-start">
-              <span className="text-red-600 mr-2">❌</span> Túl sok döntési pont – a figyelme szétszóródik, mielőtt eljutna a vásárlásig
+              <span className="text-red-600 mr-2">❌</span> <span className="text-brand-accent underline">Túl sok döntési pont – a figyelme szétszóródik, mielőtt eljutna a vásárlásig</span>
             </li>
             <li className="flex items-start">
-              <span className="text-red-600 mr-2">❌</span> Nincs meggyőző struktúra – az oldal „szép", de nem vezeti végig a látogatót a döntésig
+              <span className="text-red-600 mr-2">❌</span> <span className="text-brand-accent underline">Nincs meggyőző struktúra – az oldal „szép", de nem vezeti végig a látogatót a döntésig</span>
             </li>
           </ul>
           <p className="mt-6">
