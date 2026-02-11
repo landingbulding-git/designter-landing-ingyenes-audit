@@ -70,7 +70,7 @@ const Closer: React.FC = () => {
             </div>
 
             <h2 className="text-3xl md:text-5xl font-extrabold mb-8 leading-tight">
-            A weboldalad csendben szabotálja az eladásaidat. 48 órán belül megmutatjuk, hol, és hogyan javítsd.
+            A weboldalad csendben szabotálja az eladásaidat. 48 órán belül megmutatjuk hol, és hogyan javítsd.
             </h2>
             
             <div className="space-y-5">

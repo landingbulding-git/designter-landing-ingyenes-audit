@@ -26,13 +26,13 @@ const ProblemAgitation: React.FC<ProblemAgitationProps> = ({ onCtaClick }) => {
 
           <ul className="list-none space-y-2 text-left mx-auto max-w-md">
             <li className="flex items-start">
-              <span className="text-red-600 mr-2">❌</span> <span className="text-brand-accent underline">Az üzenet nem elég világos – a látogató nem érti, miért pont te vagy a legjobb választás</span>
+              <span className="text-red-600 mr-2">❌</span> <span className="text-brand-accent underline">Az üzenet nem elég világos</span> – a látogató nem érti, miért pont te vagy a legjobb választás
             </li>
             <li className="flex items-start">
-              <span className="text-red-600 mr-2">❌</span> <span className="text-brand-accent underline">Túl sok döntési pont – a figyelme szétszóródik, mielőtt eljutna a vásárlásig</span>
+              <span className="text-red-600 mr-2">❌</span> <span className="text-brand-accent underline">Túl sok döntési pont</span> – a figyelme szétszóródik, mielőtt eljutna a vásárlásig
             </li>
             <li className="flex items-start">
-              <span className="text-red-600 mr-2">❌</span> <span className="text-brand-accent underline">Nincs meggyőző struktúra – az oldal „szép", de nem vezeti végig a látogatót a döntésig</span>
+              <span className="text-red-600 mr-2">❌</span> <span className="text-brand-accent underline">Nincs meggyőző struktúra</span> – az oldal „szép", de nem vezeti végig a látogatót a döntésig
             </li>
           </ul>
           <p className="mt-6">
