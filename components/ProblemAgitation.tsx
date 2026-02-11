@@ -15,18 +15,32 @@ const ProblemAgitation: React.FC<ProblemAgitationProps> = ({ onCtaClick }) => {
         </div>
         
         <h2 className="text-3xl md:text-4xl font-bold text-brand-900 mb-6">
-          A hirdetéseid hozzák a kattintásokat, de az oldalad elüldözi a vevőket?
+        Te is naponta veszítesz vevőket és nem is tudsz róla.
         </h2>
         
         <div className="space-y-6 text-lg text-gray-700 leading-relaxed mb-10">
           <p>
-            A látogatóid <span className="font-bold text-brand-accent">5 másodperc alatt döntenek</span>. Ha nem értik azonnal a lényeget, akkor a konkurenciához mennek.
+          Képzeld el: valaki rákattint a hirdetésedre. Érdeklődik, kíváncsi, majdnem vásárol… aztán bezárja az oldalt. Nem azért, mert rossz az ajánlatod. Hanem mert az oldalad nem győzte meg 5 másodperc alatt.
           </p>
           <p>
-            Több mint <span className="font-bold text-brand-accent">500 landing oldal</span> elemzése után tisztán látjuk a mintát: a <span className="font-semibold text-brand-900">profitábilis oldal nem a véletlen múlik</span>. Amíg a vállalkozások 90%-a olyan felületekre irányítják a látogatóikat, amelyek apró, de végzetes hibákkal gyilkolják a konverziót, addig te egy <span className="font-bold text-brand-accent">értékesítésre optimalizált felülettel</span> érvényesülhetsz.
+          Ezt látjuk újra és újra 500+ landing oldal elemzése után:
+          </p>
+          <ul className="list-none space-y-2 text-left mx-auto max-w-md">
+            <li className="flex items-start">
+              <span className="text-red-600 mr-2">❌</span> Az üzenet nem elég világos – a látogató nem érti, miért pont te vagy a legjobb választás
+            </li>
+            <li className="flex items-start">
+              <span className="text-red-600 mr-2">❌</span> Túl sok döntési pont – a figyelme szétszóródik, mielőtt eljutna a vásárlásig
+            </li>
+            <li className="flex items-start">
+              <span className="text-red-600 mr-2">❌</span> Nincs meggyőző struktúra – az oldal „szép", de nem vezeti végig a látogatót a döntésig
+            </li>
+          </ul>
+          <p className="mt-6">
+          A jó hír: ezek nem véletlenszerű problémák, hanem visszatérő mintázatok. Ha kijavítod őket, a konverziód a piac 90%-a fölé emelkedhet.
           </p>
           <p className="bg-white p-6 rounded-xl border border-gray-200 shadow-sm font-medium">
-            Nem csak a hibákra mutatunk rá: egy olyan rendszert építünk neked, amely a <span className="text-brand-accent font-bold">látogatói pszichológiát</span> használja a meggyőzésre. Megszüntetjük a találgatást, és <span className="font-bold text-brand-900">tűpontos adatokkal</span> tesszük egyértelművé, miért éppen nálad kell elkölteniük a pénzüket.
+            Mi pontosan ezt csináljuk. Látogatói pszichológiát és konverziós adatokat kombinálunk, hogy az oldalad ne csak szép legyen – hanem meggyőző és profitábilis is.
           </p>
         </div>
 
