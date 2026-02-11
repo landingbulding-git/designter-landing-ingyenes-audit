@@ -36,6 +36,10 @@ const FAQ: React.FC = () => {
     {
       q: "Milyen eredményekre számíthatok?",
       a: "Az ügyfeleink átlagosan 64%-os konverziós növekedést tapasztalnak már az auditban javasolt változtatások egy részének bevezetése után. Egyes esetekben akár a háromszorosára is nőtt a leadek vagy az eladások száma."
+    },
+    {
+      q: "Tényleg ingyenes? Mi a hátsó szándék?",
+      a: "Nincs hátsó szándék. Az audit során feltárjuk a problémákat és konkrét javaslatokat adunk. Ha úgy érzed, hogy szeretnéd, hogy mi is implementáljuk a változtatásokat, szívesen segítünk, de erre semmilyen nyomás nincs. A legtöbb auditot kérő vállalkozó annyira meglepődik az eredményeken, hogy magától kéri a folytatást."
     }
   ];
 

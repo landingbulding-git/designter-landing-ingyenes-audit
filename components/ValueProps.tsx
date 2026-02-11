@@ -6,17 +6,17 @@ const ValueProps: React.FC = () => {
     {
       icon: <BrainCircuit className="w-8 h-8 text-brand-accent" />,
       title: "Pszichológiai Szövegírás",
-      description: "Lefordítjuk a szakértelmedet a vevőid nyelvére, hogy az üzeneted már az első 5 másodpercben betaláljon az ideális ügyfeleidnek."
+      description: "Az üzenetedet a vevőd nyelvére fordítjuk. Nem az számít, mit szeretnél mondani, hanem amit a látogatódnak hallania kell ahhoz, hogy bízzon benned és cselekedjen."
     },
     {
       icon: <Zap className="w-8 h-8 text-brand-accent" />,
       title: "Akadálymentesített Felület",
-      description: "Eltávolítunk minden felesleges választási lehetőséget és „zajt” az oldalról, hogy semmi ne vonja el a figyelmet a legfontosabb célról."
+      description: "Eltávolítunk minden felesleges elemet, választási pontot és „zajt”. Ami marad, az egyetlen útvonalra tereli a látogatót: a vásárlásra."
     },
     {
       icon: <Smartphone className="w-8 h-8 text-brand-accent" />,
       title: "Teljesítmény optimalizálás",
-      description: "Megszüntetjük a technikai akadozást, hogy egyetlen hirdetési forintod se vesszen kárba a lassan betöltő képek vagy nehézkes űrlapok miatt."
+      description: "Hiába tökéletes az üzenet, ha az oldal 5 másodperc alatt tölt be. Gondoskodunk róla, hogy egyetlen hirdetési forintod se vesszen kárba lassú betöltés, rossz mobilnézet vagy nehézkes űrlapok miatt."
     }
   ];
 

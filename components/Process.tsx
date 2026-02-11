@@ -7,25 +7,25 @@ const Process: React.FC = () => {
       number: "01",
       icon: <Stethoscope className="w-6 h-6 text-white" />,
       title: "Diagnózis",
-      desc: "Megkeressük a jelenlegi weboldalad gyenge pontjait és megnézzük hirdetési kampányaidat."
+      desc: "Átnézzük a jelenlegi oldalad, a hirdetéseid, és megmutatjuk, pontosan hol és miért veszítesz látogatókat"
     },
     {
       number: "02",
       icon: <PenTool className="w-6 h-6 text-white" />,
-      title: "Üzenet-tervezés",
-      desc: "Elemezzük a célközönségedet, majd pedig felépítjük az ellenállhatatlan ajánlatot és megírjuk a letisztult üzenetet."
+      title: "Stratégiai üzenet",
+      desc: "Megismerjük az ideális vevődet, és felépítjük azt az üzenetet, amelyre nem tud nemet mondani. Nem csak 'szép szavakat', hanem pszichológiailag megalapozott szövegeket alkalmazunk."
     },
     {
       number: "03",
       icon: <Layout className="w-6 h-6 text-white" />,
-      title: "Implementáció",
-      desc: "Megtervezzük és elkészítjük a professzionális, konverzió-fókuszú landing oldalt."
+      title: "Megvalósítás ",
+      desc: "Megtervezzük és elkészítjük a konverzió-fókuszú landing oldalt, ahol minden részlet a célt szolgálja: hogy a látogató ügyféllé váljon."
     },
     {
       number: "04",
       icon: <LineChart className="w-6 h-6 text-white" />,
-      title: "Tesztelés & Optimalizálás",
-      desc: "Egy jó landing sosincs ''kész''. Az adatok alapján finomítjuk a rendszert a maximum profitig."
+      title: "Mérés és finomhangolás",
+      desc: "Egy jó landing oldal sosem „kész”. Az élesítés után folyamatosan mérjük az eredményeket, és adatvezérelten optimalizálunk, amíg el nem érjük a maximális profitot."
     }
   ];
 
