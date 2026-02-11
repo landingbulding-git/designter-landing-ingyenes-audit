@@ -32,17 +32,18 @@ const Hero: React.FC<HeroProps> = ({ onCtaClick }) => {
             </div>
 
             <h1 className="text-4xl lg:text-6xl font-extrabold tracking-tight leading-tight">
-            Tudd meg 48 órán belül, hogyan szerezz <span className="text-brand-accent">3x több vásárlót</span> anélkül, hogy többet költenél marketingre.</h1>
+            Derítsd ki 48 órán belül, hogyan szerezz <span className="text-brand-accent">3x több vásárlót</span> anélkül, hogy többet költenél marketingre.</h1>
             
             <p className="text-lg lg:text-xl text-gray-300 leading-relaxed max-w-2xl mx-auto lg:mx-0 min-h-[6rem]">
-Hiába küldesz látogatókat az oldaladra drága hirdetésekkel, ha a kattintásokból végül nem lesz üzlet. Adatvezérelt oldakat készítünk, hogy a hirdetéseid végre ne költséget, hanem profitot termeljenek neked.            </p>
+            Hiába költesz drága hirdetésekre, ha az oldalad elengedi a látogatókat. Tudd meg, hogy hol szökik el a profitod, és kapj egy konkrét javítási tervet: ingyenes videós audit 48 órán belül.
+            </p>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
               <button 
                 onClick={onCtaClick}
                 className="w-full sm:w-auto bg-brand-accent hover:bg-brand-accentHover text-white text-lg font-bold py-4 px-8 rounded-lg shadow-lg hover:shadow-xl transition-all duration-200 transform hover:-translate-y-1"
               >
-                Nézd meg, hol veszítesz jelenleg pénzt
+                Kérem az ingyenes elemzést
               </button>
             </div>
             
