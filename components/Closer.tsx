@@ -41,9 +41,9 @@ const Closer: React.FC = () => {
   };
   
   const benefits = [
-    "Ne hagyd, hogy a látogatóid vásárlás nélkül távozzanak.",
-    "Ne költs többé olyan forgalomra, ami nem hoz neked profitot.",
-    "Építs egy rendszert, ami akkor is dolgozik, amikor te nem."
+    "Megkapod videós elemzésben a 3 legkritikusabb hibát az oldaladon",
+    "Konkrét, azonnal alkalmazható javaslatokat kapsz a javításra",
+    "Megtudod, mennyi bevételt hagysz az asztalon a jelenlegi konverziós rátával"
   ];
 
   return (
@@ -70,7 +70,7 @@ const Closer: React.FC = () => {
             </div>
 
             <h2 className="text-3xl md:text-5xl font-extrabold mb-8 leading-tight">
-              Szerezz akár 3x több érdeklődőt és bevételt anélkül, hogy még több pénzt égetnél el marketingre
+            A weboldalad csendben szabotálja az eladásaidat. 48 órán belül megmutatjuk, hol, és hogyan javítsd.
             </h2>
             
             <div className="space-y-5">
