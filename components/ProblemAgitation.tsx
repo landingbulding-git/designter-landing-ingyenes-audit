@@ -20,11 +20,10 @@ const ProblemAgitation: React.FC<ProblemAgitationProps> = ({ onCtaClick }) => {
         
         <div className="space-y-6 text-lg text-gray-700 leading-relaxed mb-10">
           <p>
-          Képzeld el: valaki rákattint a hirdetésedre. Érdeklődik, kíváncsi, majdnem vásárol… aztán bezárja az oldalt. Nem azért, mert rossz az ajánlatod. Hanem mert az oldalad nem győzte meg 5 másodperc alatt.
+          Képzeld el: valaki rákattint a hirdetésedre. Érdeklődik, kíváncsi, majdnem vásárol… aztán bezárja az oldalt. Nem azért, mert rossz az ajánlatod. Hanem mert az oldalad nem győzte meg <span className="text-brand-accent">5 másodperc</span> alatt.
           </p>
-          <p>
-          Ezt látjuk újra és újra 500+ landing oldal elemzése után:
-          </p>
+          <p><strong className="font-bold">Ezt látjuk újra és újra 500+ landing oldal elemzése után:</strong></p>
+
           <ul className="list-none space-y-2 text-left mx-auto max-w-md">
             <li className="flex items-start">
               <span className="text-red-600 mr-2">❌</span> Az üzenet nem elég világos – a látogató nem érti, miért pont te vagy a legjobb választás
@@ -37,7 +36,7 @@ const ProblemAgitation: React.FC<ProblemAgitationProps> = ({ onCtaClick }) => {
             </li>
           </ul>
           <p className="mt-6">
-          A jó hír: ezek nem véletlenszerű problémák, hanem visszatérő mintázatok. Ha kijavítod őket, a konverziód a piac 90%-a fölé emelkedhet.
+          <strong className="font-bold">A jó hír</strong>: ezek nem véletlenszerű problémák, hanem visszatérő mintázatok. Ha kijavítod őket, a konverziód a piac 90%-a fölé emelkedhet.
           </p>
           <p className="bg-white p-6 rounded-xl border border-gray-200 shadow-sm font-medium">
             Mi pontosan ezt csináljuk. Látogatói pszichológiát és konverziós adatokat kombinálunk, hogy az oldalad ne csak szép legyen – hanem meggyőző és profitábilis is.
